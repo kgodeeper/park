@@ -1,0 +1,21 @@
+.myanchor{
+    text-decoration: none;
+    color: #aaa;
+    padding: 0px 5px;
+    position: relative;
+}
+
+.myanchor:not(:last-child)::after{
+    content: '';
+    display: block;
+    border-right: 1px solid #aaa;
+    height: 100%;
+    top: 0;
+    right: -3px;
+    position: absolute;
+}
+
+.active{
+    color: white;
+    font-weight: bold;
+}
