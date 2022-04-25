@@ -1,0 +1,37 @@
+.auth-links .active{
+    color: white;
+    font-weight: bolder;
+}
+
+.auth-links .myanchor:first-child::after{
+    content: '';
+    border-right: 1px solid #aaa;
+    height: 100%;
+    top: 0;
+    right: -3px;
+    position: absolute;
+}
+
+.myanchor{
+    text-decoration: none;
+    color: #aaa;
+    padding: 0px 5px !important;
+    position: relative;
+}
+
+.login-container{
+    height: 100vh;
+    min-height: 600px;
+    padding-top:50px;
+}
+
+.login-form{
+    width: 350px;
+    min-height: fit-content;
+    box-shadow: 0px 0px 7px #00000040;
+    border-radius: 3px;
+}
+
+.login-form p{
+    font-size: 12px;
+}
